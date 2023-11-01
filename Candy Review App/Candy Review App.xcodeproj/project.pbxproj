@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		782C48A42AF25A7A00D54356 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782C48A32AF25A7A00D54356 /* AppDelegate.swift */; };
+		782C48A62AF25A7A00D54356 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782C48A52AF25A7A00D54356 /* SceneDelegate.swift */; };
+		782C48A82AF25A7A00D54356 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782C48A72AF25A7A00D54356 /* ViewController.swift */; };
+		782C48AB2AF25A7A00D54356 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782C48A92AF25A7A00D54356 /* Main.storyboard */; };
+		782C48AD2AF25A7C00D54356 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 782C48AC2AF25A7C00D54356 /* Assets.xcassets */; };
+		782C48B02AF25A7C00D54356 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782C48AE2AF25A7C00D54356 /* LaunchScreen.storyboard */; };
+		782C48BB2AF25A7C00D54356 /* Candy_Review_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782C48BA2AF25A7C00D54356 /* Candy_Review_AppTests.swift */; };
+		782C48C52AF25A7C00D54356 /* Candy_Review_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782C48C42AF25A7C00D54356 /* Candy_Review_AppUITests.swift */; };
+		782C48C72AF25A7C00D54356 /* Candy_Review_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782C48C62AF25A7C00D54356 /* Candy_Review_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		782C48B72AF25A7C00D54356 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 782C48982AF25A7A00D54356 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 782C489F2AF25A7A00D54356;
+			remoteInfo = "Candy Review App";
+		};
+		782C48C12AF25A7C00D54356 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 782C48982AF25A7A00D54356 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 782C489F2AF25A7A00D54356;
+			remoteInfo = "Candy Review App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		782C48A02AF25A7A00D54356 /* Candy Review App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Candy Review App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		782C48A32AF25A7A00D54356 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		782C48A52AF25A7A00D54356 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		782C48A72AF25A7A00D54356 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		782C48AA2AF25A7A00D54356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		782C48AC2AF25A7C00D54356 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		782C48AF2AF25A7C00D54356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		782C48B12AF25A7C00D54356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		782C48B62AF25A7C00D54356 /* Candy Review AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Candy Review AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		782C48BA2AF25A7C00D54356 /* Candy_Review_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Candy_Review_AppTests.swift; sourceTree = "<group>"; };
+		782C48C02AF25A7C00D54356 /* Candy Review AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Candy Review AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		782C48C42AF25A7C00D54356 /* Candy_Review_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Candy_Review_AppUITests.swift; sourceTree = "<group>"; };
+		782C48C62AF25A7C00D54356 /* Candy_Review_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Candy_Review_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		782C489D2AF25A7A00D54356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782C48B32AF25A7C00D54356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782C48BD2AF25A7C00D54356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		782C48972AF25A7A00D54356 = {
+			isa = PBXGroup;
+			children = (
+				782C48A22AF25A7A00D54356 /* Candy Review App */,
+				782C48B92AF25A7C00D54356 /* Candy Review AppTests */,
+				782C48C32AF25A7C00D54356 /* Candy Review AppUITests */,
+				782C48A12AF25A7A00D54356 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		782C48A12AF25A7A00D54356 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				782C48A02AF25A7A00D54356 /* Candy Review App.app */,
+				782C48B62AF25A7C00D54356 /* Candy Review AppTests.xctest */,
+				782C48C02AF25A7C00D54356 /* Candy Review AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		782C48A22AF25A7A00D54356 /* Candy Review App */ = {
+			isa = PBXGroup;
+			children = (
+				782C48A32AF25A7A00D54356 /* AppDelegate.swift */,
+				782C48A52AF25A7A00D54356 /* SceneDelegate.swift */,
+				782C48A72AF25A7A00D54356 /* ViewController.swift */,
+				782C48A92AF25A7A00D54356 /* Main.storyboard */,
+				782C48AC2AF25A7C00D54356 /* Assets.xcassets */,
+				782C48AE2AF25A7C00D54356 /* LaunchScreen.storyboard */,
+				782C48B12AF25A7C00D54356 /* Info.plist */,
+			);
+			path = "Candy Review App";
+			sourceTree = "<group>";
+		};
+		782C48B92AF25A7C00D54356 /* Candy Review AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				782C48BA2AF25A7C00D54356 /* Candy_Review_AppTests.swift */,
+			);
+			path = "Candy Review AppTests";
+			sourceTree = "<group>";
+		};
+		782C48C32AF25A7C00D54356 /* Candy Review AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				782C48C42AF25A7C00D54356 /* Candy_Review_AppUITests.swift */,
+				782C48C62AF25A7C00D54356 /* Candy_Review_AppUITestsLaunchTests.swift */,
+			);
+			path = "Candy Review AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		782C489F2AF25A7A00D54356 /* Candy Review App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 782C48CA2AF25A7C00D54356 /* Build configuration list for PBXNativeTarget "Candy Review App" */;
+			buildPhases = (
+				782C489C2AF25A7A00D54356 /* Sources */,
+				782C489D2AF25A7A00D54356 /* Frameworks */,
+				782C489E2AF25A7A00D54356 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Candy Review App";
+			productName = "Candy Review App";
+			productReference = 782C48A02AF25A7A00D54356 /* Candy Review App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		782C48B52AF25A7C00D54356 /* Candy Review AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 782C48CD2AF25A7C00D54356 /* Build configuration list for PBXNativeTarget "Candy Review AppTests" */;
+			buildPhases = (
+				782C48B22AF25A7C00D54356 /* Sources */,
+				782C48B32AF25A7C00D54356 /* Frameworks */,
+				782C48B42AF25A7C00D54356 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				782C48B82AF25A7C00D54356 /* PBXTargetDependency */,
+			);
+			name = "Candy Review AppTests";
+			productName = "Candy Review AppTests";
+			productReference = 782C48B62AF25A7C00D54356 /* Candy Review AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		782C48BF2AF25A7C00D54356 /* Candy Review AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 782C48D02AF25A7C00D54356 /* Build configuration list for PBXNativeTarget "Candy Review AppUITests" */;
+			buildPhases = (
+				782C48BC2AF25A7C00D54356 /* Sources */,
+				782C48BD2AF25A7C00D54356 /* Frameworks */,
+				782C48BE2AF25A7C00D54356 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				782C48C22AF25A7C00D54356 /* PBXTargetDependency */,
+			);
+			name = "Candy Review AppUITests";
+			productName = "Candy Review AppUITests";
+			productReference = 782C48C02AF25A7C00D54356 /* Candy Review AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		782C48982AF25A7A00D54356 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					782C489F2AF25A7A00D54356 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					782C48B52AF25A7C00D54356 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 782C489F2AF25A7A00D54356;
+					};
+					782C48BF2AF25A7C00D54356 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 782C489F2AF25A7A00D54356;
+					};
+				};
+			};
+			buildConfigurationList = 782C489B2AF25A7A00D54356 /* Build configuration list for PBXProject "Candy Review App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 782C48972AF25A7A00D54356;
+			productRefGroup = 782C48A12AF25A7A00D54356 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				782C489F2AF25A7A00D54356 /* Candy Review App */,
+				782C48B52AF25A7C00D54356 /* Candy Review AppTests */,
+				782C48BF2AF25A7C00D54356 /* Candy Review AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		782C489E2AF25A7A00D54356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782C48B02AF25A7C00D54356 /* LaunchScreen.storyboard in Resources */,
+				782C48AD2AF25A7C00D54356 /* Assets.xcassets in Resources */,
+				782C48AB2AF25A7A00D54356 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782C48B42AF25A7C00D54356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782C48BE2AF25A7C00D54356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		782C489C2AF25A7A00D54356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782C48A82AF25A7A00D54356 /* ViewController.swift in Sources */,
+				782C48A42AF25A7A00D54356 /* AppDelegate.swift in Sources */,
+				782C48A62AF25A7A00D54356 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782C48B22AF25A7C00D54356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782C48BB2AF25A7C00D54356 /* Candy_Review_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782C48BC2AF25A7C00D54356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782C48C72AF25A7C00D54356 /* Candy_Review_AppUITestsLaunchTests.swift in Sources */,
+				782C48C52AF25A7C00D54356 /* Candy_Review_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		782C48B82AF25A7C00D54356 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 782C489F2AF25A7A00D54356 /* Candy Review App */;
+			targetProxy = 782C48B72AF25A7C00D54356 /* PBXContainerItemProxy */;
+		};
+		782C48C22AF25A7C00D54356 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 782C489F2AF25A7A00D54356 /* Candy Review App */;
+			targetProxy = 782C48C12AF25A7C00D54356 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		782C48A92AF25A7A00D54356 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				782C48AA2AF25A7A00D54356 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		782C48AE2AF25A7C00D54356 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				782C48AF2AF25A7C00D54356 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		782C48C82AF25A7C00D54356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		782C48C92AF25A7C00D54356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		782C48CB2AF25A7C00D54356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 664VZ3PP33;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Candy Review App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "UHWO.Candy-Review-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		782C48CC2AF25A7C00D54356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 664VZ3PP33;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Candy Review App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "UHWO.Candy-Review-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		782C48CE2AF25A7C00D54356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 664VZ3PP33;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "UHWO.Candy-Review-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Candy Review App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Candy Review App";
+			};
+			name = Debug;
+		};
+		782C48CF2AF25A7C00D54356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 664VZ3PP33;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "UHWO.Candy-Review-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Candy Review App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Candy Review App";
+			};
+			name = Release;
+		};
+		782C48D12AF25A7C00D54356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 664VZ3PP33;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "UHWO.Candy-Review-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Candy Review App";
+			};
+			name = Debug;
+		};
+		782C48D22AF25A7C00D54356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 664VZ3PP33;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "UHWO.Candy-Review-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Candy Review App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		782C489B2AF25A7A00D54356 /* Build configuration list for PBXProject "Candy Review App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782C48C82AF25A7C00D54356 /* Debug */,
+				782C48C92AF25A7C00D54356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		782C48CA2AF25A7C00D54356 /* Build configuration list for PBXNativeTarget "Candy Review App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782C48CB2AF25A7C00D54356 /* Debug */,
+				782C48CC2AF25A7C00D54356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		782C48CD2AF25A7C00D54356 /* Build configuration list for PBXNativeTarget "Candy Review AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782C48CE2AF25A7C00D54356 /* Debug */,
+				782C48CF2AF25A7C00D54356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		782C48D02AF25A7C00D54356 /* Build configuration list for PBXNativeTarget "Candy Review AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782C48D12AF25A7C00D54356 /* Debug */,
+				782C48D22AF25A7C00D54356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 782C48982AF25A7A00D54356 /* Project object */;
+}
