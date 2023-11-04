@@ -16,6 +16,11 @@
 		782C48BB2AF25A7C00D54356 /* Candy_Review_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782C48BA2AF25A7C00D54356 /* Candy_Review_AppTests.swift */; };
 		782C48C52AF25A7C00D54356 /* Candy_Review_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782C48C42AF25A7C00D54356 /* Candy_Review_AppUITests.swift */; };
 		782C48C72AF25A7C00D54356 /* Candy_Review_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782C48C62AF25A7C00D54356 /* Candy_Review_AppUITestsLaunchTests.swift */; };
+		782C48D42AF4FF5F00D54356 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782C48D32AF4FF5F00D54356 /* ViewController2.swift */; };
+		782C48D62AF500C400D54356 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782C48D52AF500C300D54356 /* ViewController3.swift */; };
+		782C48D82AF500CE00D54356 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782C48D72AF500CE00D54356 /* ViewController4.swift */; };
+		782C48DA2AF500DB00D54356 /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782C48D92AF500DB00D54356 /* ViewController5.swift */; };
+		782C48DE2AF505C100D54356 /* ViewController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782C48DD2AF505C100D54356 /* ViewController6.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		782C48C02AF25A7C00D54356 /* Candy Review AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Candy Review AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		782C48C42AF25A7C00D54356 /* Candy_Review_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Candy_Review_AppUITests.swift; sourceTree = "<group>"; };
 		782C48C62AF25A7C00D54356 /* Candy_Review_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Candy_Review_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		782C48D32AF4FF5F00D54356 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		782C48D52AF500C300D54356 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		782C48D72AF500CE00D54356 /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		782C48D92AF500DB00D54356 /* ViewController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
+		782C48DD2AF505C100D54356 /* ViewController6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController6.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +111,13 @@
 			children = (
 				782C48A32AF25A7A00D54356 /* AppDelegate.swift */,
 				782C48A52AF25A7A00D54356 /* SceneDelegate.swift */,
-				782C48A72AF25A7A00D54356 /* ViewController.swift */,
 				782C48A92AF25A7A00D54356 /* Main.storyboard */,
+				782C48DD2AF505C100D54356 /* ViewController6.swift */,
+				782C48A72AF25A7A00D54356 /* ViewController.swift */,
+				782C48D32AF4FF5F00D54356 /* ViewController2.swift */,
+				782C48D52AF500C300D54356 /* ViewController3.swift */,
+				782C48D72AF500CE00D54356 /* ViewController4.swift */,
+				782C48D92AF500DB00D54356 /* ViewController5.swift */,
 				782C48AC2AF25A7C00D54356 /* Assets.xcassets */,
 				782C48AE2AF25A7C00D54356 /* LaunchScreen.storyboard */,
 				782C48B12AF25A7C00D54356 /* Info.plist */,
@@ -258,9 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				782C48D62AF500C400D54356 /* ViewController3.swift in Sources */,
+				782C48D82AF500CE00D54356 /* ViewController4.swift in Sources */,
 				782C48A82AF25A7A00D54356 /* ViewController.swift in Sources */,
+				782C48D42AF4FF5F00D54356 /* ViewController2.swift in Sources */,
 				782C48A42AF25A7A00D54356 /* AppDelegate.swift in Sources */,
+				782C48DE2AF505C100D54356 /* ViewController6.swift in Sources */,
 				782C48A62AF25A7A00D54356 /* SceneDelegate.swift in Sources */,
+				782C48DA2AF500DB00D54356 /* ViewController5.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
