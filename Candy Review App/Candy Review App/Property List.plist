@@ -9,5 +9,19 @@
 		<string>ChupaChups</string>
 		<string>ClassicSeriesGuavaCandy</string>
 	</array>
+	<key>CategoryTwoImages</key>
+	<array>
+		<string>Skittles</string>
+		<string>Sour Patch</string>
+		<string>Airheads</string>
+		<string>Candy Corn (Again)</string>
+	</array>
+	<key>CategoryThreeImages</key>
+	<array>
+		<string>Lindt</string>
+		<string>Twix</string>
+		<string>Brookside Acai Blueberry</string>
+		<string>Reese&apos;s</string>
+	</array>
 </dict>
 </plist>

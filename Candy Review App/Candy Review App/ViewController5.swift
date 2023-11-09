@@ -24,7 +24,7 @@ class ViewController5: UIViewController {
         
         aboutMeTitle.text = "About the Reviewer"
         
-        imageView.image = UIImage(named: "About Me")
+        imageView.image = UIImage(named: "MEG Sean copy")
     }
     
 

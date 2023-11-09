@@ -1,5 +1,5 @@
 //
-//  FourthDetailViewController.swift
+//  thirdDetailViewController.swift
 //  Candy Review App
 //
 //  Created by Sean Taylor on 11/9/23.
@@ -7,11 +7,21 @@
 
 import UIKit
 
-class FourthDetailViewController: UIViewController {
+class thirdDetailViewController: UIViewController {
 
+  
+    @IBOutlet weak var imageView: UIImageView!
+    
+    var imagePass: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // Do any additional setup after loading the view.
+
+        if let imageName = imagePass {
+            imageView.image = UIImage(named: imageName)
+        }
         // Do any additional setup after loading the view.
     }
     

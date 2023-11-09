@@ -4,7 +4,7 @@
 //
 //  Created by Sean Taylor on 11/3/23.
 //
-
+//ONE
 import UIKit
 
 class ViewController2: UIViewController, UITableViewDataSource, UITableViewDelegate {
@@ -13,7 +13,7 @@ class ViewController2: UIViewController, UITableViewDataSource, UITableViewDeleg
     var ratingsArray = ["5","4","3","3"]
     
     //part 8
-    var CategoryOneImagesData = [String]()
+    var CategoryOneImagesData = [String](arrayLiteral: "Nerds","Candy Corn","Chupa Chups","Classic Series Guava Candy")
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,11 +43,11 @@ class ViewController2: UIViewController, UITableViewDataSource, UITableViewDeleg
         }
     
     //Part 9
-   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "mySegue"
         {
             let s1 = segue.destination as! secondDetailViewController
-            let imageIndex = tableView.indexPathForSelectedRow?.row 
+            let imageIndex = tableView.indexPathForSelectedRow?.row
             s1.imagePass = CategoryOneImagesData[imageIndex!]
         }
     }

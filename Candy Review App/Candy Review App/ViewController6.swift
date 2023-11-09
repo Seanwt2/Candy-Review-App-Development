@@ -20,11 +20,11 @@ class ViewController6: UIViewController {
         
         // Do any additional setup after loading the view.
         
-        candyCornText.text = "A classic candy that doesn't grow old, literally! The perfect candy for trick-or-treaters, or a quick  Halloween snack."
+        candyCornText.text = "A classic candy that doesn't grow old. Literally! The perfect candy for trick-or-treaters, or a quick  Halloween snack."
         candyCornTitle.text = "Featured Candy: Candy Corn"
         imageView.image = UIImage(named: "Candy Corn")
 
-        
+        navigationItem.title = "Candy of the Day"
         
     }
     
