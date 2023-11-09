@@ -57,7 +57,6 @@
         <!--View Controller2-->
         <scene sceneID="nFt-cM-zG5">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="d6L-x4-Vui" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="cX4-9Z-Xh5" customClass="ViewController2" customModule="Candy_Review_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kXw-cj-SvH">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
@@ -110,13 +109,13 @@
                         <outlet property="tableView" destination="2aX-hN-8Oz" id="odN-xz-WcT"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d6L-x4-Vui" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-5.343511450381679" y="-233.09859154929578"/>
         </scene>
         <!--Second Detail View Controller-->
         <scene sceneID="9zv-gW-edo">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ahK-O0-BXu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="clm-yf-O3Z" customClass="secondDetailViewController" customModule="Candy_Review_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kPa-qi-mTx">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
@@ -135,6 +134,7 @@
                         <outlet property="ImageView" destination="GX3-7M-zAN" id="Zca-KJ-rkU"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ahK-O0-BXu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="879" y="-233"/>
         </scene>
@@ -270,7 +270,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Llu-nY-yNS">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Llu-nY-yNS">
                                 <rect key="frame" x="16" y="386" width="361" height="134"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
@@ -298,6 +298,7 @@
                     <connections>
                         <outlet property="aboutMe" destination="WAa-EY-Ttm" id="Qgj-bf-sMq"/>
                         <outlet property="aboutMeTitle" destination="Llu-nY-yNS" id="D4q-6I-LL7"/>
+                        <outlet property="imageView" destination="2fb-lt-gkg" id="hMx-UH-ULK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GaH-Fw-Va7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -390,7 +391,6 @@
         <!--Hard Candy-->
         <scene sceneID="dQT-d8-yz5">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="10V-bL-esC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lfi-tp-fM7" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Hard Candy" image="hammer.fill" catalog="system" id="5Uk-6o-sfS"/>
                     <toolbarItems/>
@@ -403,6 +403,7 @@
                         <segue destination="cX4-9Z-Xh5" kind="relationship" relationship="rootViewController" id="JF5-4V-r4P"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="10V-bL-esC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-619" y="-233"/>
         </scene>

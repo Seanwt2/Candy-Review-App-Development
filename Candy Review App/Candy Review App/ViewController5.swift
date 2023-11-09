@@ -13,6 +13,8 @@ class ViewController5: UIViewController {
     
     @IBOutlet weak var aboutMeTitle: UILabel!
     
+    @IBOutlet weak var imageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,8 +22,9 @@ class ViewController5: UIViewController {
         
         aboutMe.text = "Sean Taylor lives in Mililani, Oahu and has been a sweets critic and connoisseur for almost 19 years. He stands by his motto ''there is no such thing as ''too'' sweet, only not sweet enough.'' He has yet to meet the consequences of his heavy reviewing over the years."
         
-        aboutMeTitle.text = "About Me"
+        aboutMeTitle.text = "About the Reviewer"
         
+        imageView.image = UIImage(named: "About Me")
     }
     
 
