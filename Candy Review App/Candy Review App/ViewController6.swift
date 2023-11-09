@@ -13,14 +13,17 @@ class ViewController6: UIViewController {
 
     @IBOutlet weak var candyCornTitle: UILabel!
     
+    @IBOutlet weak var imageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
         
         candyCornText.text = "A classic candy that doesn't grow old, literally! The perfect candy for trick-or-treaters, or a quick  Halloween snack."
-        candyCornTitle.text = "Candy Corn"
-        
+        candyCornTitle.text = "Featured Candy: Candy Corn"
+        imageView.image = UIImage(named: "Candy Corn")
+
         
         
     }

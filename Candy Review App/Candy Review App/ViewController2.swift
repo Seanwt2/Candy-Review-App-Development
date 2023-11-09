@@ -9,8 +9,8 @@ import UIKit
 
 class ViewController2: UIViewController, UITableViewDataSource, UITableViewDelegate {
   
-    var Hardcandy = ["Nerds"]
-    var ratingsArray = ["5"]
+    var Hardcandy = ["Nerds","Candy Corn","Chupa Chups","Classic Series Guava Candy"]
+    var ratingsArray = ["5","4","3","3"]
     
     //part 8
     var CategoryOneImagesData = [String]()

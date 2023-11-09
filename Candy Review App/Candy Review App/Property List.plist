@@ -5,6 +5,9 @@
 	<key>CategoryOneImages</key>
 	<array>
 		<string>Nerds</string>
+		<string>CandyCorn</string>
+		<string>ChupaChups</string>
+		<string>ClassicSeriesGuavaCandy</string>
 	</array>
 </dict>
 </plist>
