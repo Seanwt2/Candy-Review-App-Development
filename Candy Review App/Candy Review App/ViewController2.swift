@@ -9,19 +9,18 @@ import UIKit
 
 class ViewController2: UIViewController, UITableViewDataSource, UITableViewDelegate {
   
-    var Hardcandy = ["Nerds","Candy Corn","ChupaChups","ClassicSeriesGuavaCandy"]
-    
-    var ratingsArray = ["5","5","4","3"]
+    var Hardcandy = ["Nerds"]
+    var ratingsArray = ["5"]
     
     //part 8
-    var categoryOneImagesData = [String]()
+    var CategoryOneImagesData = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
       //part 8
         let path = Bundle.main.path(forResource: "Property List", ofType: "plist")
         let dict = NSDictionary(contentsOfFile: path!)
-        var categoryOneImagesData = dict!.object(forKey: "CategoryOneImages") as! [String]
+        var CategoryOneImagesData = dict!.object(forKey: "CategoryOneImages") as! [String]
     }
 
     @IBOutlet weak var tableView: UITableView!
@@ -33,6 +32,7 @@ class ViewController2: UIViewController, UITableViewDataSource, UITableViewDeleg
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
                        let text = Hardcandy[indexPath.row]
+                       cell.detailTextLabel?.text = ratingsArray[indexPath.row]
                        cell.textLabel?.text = text
                        return cell
         }
@@ -48,7 +48,7 @@ class ViewController2: UIViewController, UITableViewDataSource, UITableViewDeleg
         {
             let s1 = segue.destination as! secondDetailViewController
             let imageIndex = tableView.indexPathForSelectedRow?.row 
-            s1.imagePass = categoryOneImagesData[imageIndex!]
+            s1.imagePass = CategoryOneImagesData[imageIndex!]
         }
     }
     

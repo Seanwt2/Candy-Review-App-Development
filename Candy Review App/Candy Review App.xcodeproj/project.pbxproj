@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		7800BA5F2AFB951F0079D8F3 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7800BA5E2AFB951F0079D8F3 /* Property List.plist */; };
 		7800BA652AFCB54A0079D8F3 /* secondDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7800BA642AFCB54A0079D8F3 /* secondDetailViewController.swift */; };
+		7800BA672AFCFFDF0079D8F3 /* ThirdDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7800BA662AFCFFDF0079D8F3 /* ThirdDetailViewController.swift */; };
+		7800BA692AFCFFF90079D8F3 /* FourthDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7800BA682AFCFFF90079D8F3 /* FourthDetailViewController.swift */; };
 		782C48A42AF25A7A00D54356 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782C48A32AF25A7A00D54356 /* AppDelegate.swift */; };
 		782C48A62AF25A7A00D54356 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782C48A52AF25A7A00D54356 /* SceneDelegate.swift */; };
 		782C48A82AF25A7A00D54356 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782C48A72AF25A7A00D54356 /* ViewController.swift */; };
@@ -45,6 +47,8 @@
 /* Begin PBXFileReference section */
 		7800BA5E2AFB951F0079D8F3 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 		7800BA642AFCB54A0079D8F3 /* secondDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondDetailViewController.swift; sourceTree = "<group>"; };
+		7800BA662AFCFFDF0079D8F3 /* ThirdDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdDetailViewController.swift; sourceTree = "<group>"; };
+		7800BA682AFCFFF90079D8F3 /* FourthDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthDetailViewController.swift; sourceTree = "<group>"; };
 		782C48A02AF25A7A00D54356 /* Candy Review App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Candy Review App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		782C48A32AF25A7A00D54356 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		782C48A52AF25A7A00D54356 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +97,7 @@
 		782C48972AF25A7A00D54356 = {
 			isa = PBXGroup;
 			children = (
+				7800BA662AFCFFDF0079D8F3 /* ThirdDetailViewController.swift */,
 				782C48A22AF25A7A00D54356 /* Candy Review App */,
 				782C48B92AF25A7C00D54356 /* Candy Review AppTests */,
 				782C48C32AF25A7C00D54356 /* Candy Review AppUITests */,
@@ -116,6 +121,7 @@
 				782C48A32AF25A7A00D54356 /* AppDelegate.swift */,
 				782C48A52AF25A7A00D54356 /* SceneDelegate.swift */,
 				782C48A92AF25A7A00D54356 /* Main.storyboard */,
+				7800BA682AFCFFF90079D8F3 /* FourthDetailViewController.swift */,
 				7800BA642AFCB54A0079D8F3 /* secondDetailViewController.swift */,
 				7800BA5E2AFB951F0079D8F3 /* Property List.plist */,
 				782C48DD2AF505C100D54356 /* ViewController6.swift */,
@@ -283,8 +289,10 @@
 				782C48D62AF500C400D54356 /* ViewController3.swift in Sources */,
 				782C48D82AF500CE00D54356 /* ViewController4.swift in Sources */,
 				782C48A82AF25A7A00D54356 /* ViewController.swift in Sources */,
+				7800BA692AFCFFF90079D8F3 /* FourthDetailViewController.swift in Sources */,
 				782C48D42AF4FF5F00D54356 /* ViewController2.swift in Sources */,
 				782C48A42AF25A7A00D54356 /* AppDelegate.swift in Sources */,
+				7800BA672AFCFFDF0079D8F3 /* ThirdDetailViewController.swift in Sources */,
 				782C48DE2AF505C100D54356 /* ViewController6.swift in Sources */,
 				7800BA652AFCB54A0079D8F3 /* secondDetailViewController.swift in Sources */,
 				782C48A62AF25A7A00D54356 /* SceneDelegate.swift in Sources */,

@@ -91,7 +91,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="clm-yf-O3Z" kind="show" id="hvb-0o-F2f"/>
+                                            <segue destination="clm-yf-O3Z" kind="show" identifier="mySegue" id="hvb-0o-F2f"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
