@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController2: UIViewController, UITableViewDataSource, UITableViewDelegate {
   
-    var Hardcandy = ["Candy 0","Candy 1","Candy 2","Candy 3","Candy 4"]
+    var Hardcandy = ["Nerds","Candy Corn","Chupa Chups","Classi Series Guava Candy"]
     //candies ^
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return Hardcandy.count
@@ -29,6 +29,11 @@ class ViewController2: UIViewController, UITableViewDataSource, UITableViewDeleg
     tableView.deselectRow(at: indexPath, animated: true)
     }
     
+//part 8
+    var categoryOneImages = [String]()
+    let path = Bundle.main.path(forResource: "Property List", ofType: "plist")
+    let dict = NSDictionary(contentsOfFile: path!)
+    var categoryOneIMagesData = dict!.object(forKey: "CategoryOneImages") as! [String]
     
     override func viewDidLoad() {
         super.viewDidLoad()
