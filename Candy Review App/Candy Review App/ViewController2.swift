@@ -9,8 +9,23 @@ import UIKit
 
 class ViewController2: UIViewController, UITableViewDataSource, UITableViewDelegate {
   
-    var Hardcandy = ["Nerds","Candy Corn","Chupa Chups","Classi Series Guava Candy"]
-    //candies ^
+    var Hardcandy = ["Nerds","Candy Corn","ChupaChups","ClassicSeriesGuavaCandy"]
+    
+    var ratingsArray = ["5","5","4","3"]
+    
+    //part 8
+    var categoryOneImagesData = [String]()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+      //part 8
+        let path = Bundle.main.path(forResource: "Property List", ofType: "plist")
+        let dict = NSDictionary(contentsOfFile: path!)
+        var categoryOneImagesData = dict!.object(forKey: "CategoryOneImages") as! [String]
+    }
+
+    @IBOutlet weak var tableView: UITableView!
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return Hardcandy.count
     }
@@ -20,26 +35,34 @@ class ViewController2: UIViewController, UITableViewDataSource, UITableViewDeleg
                        let text = Hardcandy[indexPath.row]
                        cell.textLabel?.text = text
                        return cell
-    }
-    
-    
-    
-    func  tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
-    {
-    tableView.deselectRow(at: indexPath, animated: true)
-    }
-    
-//part 8
-    var categoryOneImages = [String]()
-    let path = Bundle.main.path(forResource: "Property List", ofType: "plist")
-    let dict = NSDictionary(contentsOfFile: path!)
-    var categoryOneIMagesData = dict!.object(forKey: "CategoryOneImages") as! [String]
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
+        }
 
-        // Do any additional setup after loading the view.
+        func  tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
+        {
+            tableView.deselectRow(at: indexPath, animated: true)
+        }
+    
+    //Part 9
+   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "mySegue"
+        {
+            let s1 = segue.destination as! secondDetailViewController
+            let imageIndex = tableView.indexPathForSelectedRow?.row 
+            s1.imagePass = categoryOneImagesData[imageIndex!]
+        }
     }
+    
+    
+   
+  
+    
+
+   
+      
+      
+        
+       
+        
     
 
     /*
